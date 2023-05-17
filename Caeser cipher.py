@@ -14,7 +14,6 @@ def caesar(start_text, shift_amount, cipher_direction):
       end_text += alphabet[new_position]
     
   print(f"Here's the {cipher_direction}d result: {end_text}")
-print(logo)
 cont = True
 while cont is True:
   direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
@@ -23,7 +22,9 @@ while cont is True:
   shift = shift % 26
   caesar(start_text=text, shift_amount=shift, 
   cipher_direction=direction)
-  if input("Would you like to continue?Y or N  ") != "y" or "Y":
+  result = input("Would you like to continue?y or n:\n")
+  if result == "n":
     cont = False
     
 print("bye")
+    
