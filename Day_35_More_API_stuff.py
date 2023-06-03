@@ -3,15 +3,15 @@ import requests
 from twilio.rest import Client
 from twilio.http.http_client import TwilioHttpClient
 
-API_KEY = "3e27925a2fcfaf1d15f1d82bf738410f"
+API_KEY = ""
 Endpoint = "https://api.openweathermap.org/data/2.5/weather"
-account_sid = "AC01a2c8a1eaf9c73e25f632e534786db8"
-auth_token = "b0a8526b3ccdf41d365632847a51743c"
+account_sid = ""
+auth_token = "
 client = Client(account_sid, auth_token)
 
 paramaters = {
-    "lat": 32.525150,
-    "lon": -93.750175,
+    "lat": 
+    "lon": 
     "appid": API_KEY,
 }
 
@@ -32,8 +32,8 @@ if is_rain:
     message = client.messages \
         .create(
         body="Join Earth's mightiest heroes. Like Kevin Bacon.",
-        from_="+18884163906",
-        to="+13185320848"
+        from_=
+        to=
     )
 
     print(message.status)
