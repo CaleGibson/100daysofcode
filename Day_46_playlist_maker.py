@@ -3,8 +3,8 @@ import requests
 import spotipy
 import pprint
 from spotipy.oauth2 import SpotifyOAuth
-SPOTIFY_ID = "83378cc1879542ecac6d95440a76b64f"
-SPOTIFY_SEC = "565dc2874c2642fb9cbe792d91521878"
+SPOTIFY_ID = ""
+SPOTIFY_SEC = ""
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope="playlist-modify-private",
                                                client_id=SPOTIFY_ID,
                                                client_secret=SPOTIFY_SEC,
