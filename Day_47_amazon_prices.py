@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import smtplib
 header = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+    "User-Agent": "",
     "Accept-Language": "en-US,en;q=0.9"
 }
 url = "https://www.amazon.com/CompTIA-PenTest-Study-Guide-PT0-002/dp/1119823811/ref=sr_1_3_sspa?crid=1ECQHM185OX2J&keywords=pentest%2B+book&qid=1686175150&sprefix=pente%2B+book%2Caps%2C580&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
